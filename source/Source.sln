@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8995391D-E1DB-414C-89CD-19A8360A8195}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Versioning", "HolisticWare.Core.Versioning\HolisticWare.Core.Versioning.csproj", "{326EF3A7-90E7-4885-8ACE-19A4E40E91CB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HolisticWare.Core.Math.Statistics.Descriptive.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.projitems*{920d7d0f-3fae-4c77-9174-23e7a4e80e50}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{326EF3A7-90E7-4885-8ACE-19A4E40E91CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326EF3A7-90E7-4885-8ACE-19A4E40E91CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326EF3A7-90E7-4885-8ACE-19A4E40E91CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326EF3A7-90E7-4885-8ACE-19A4E40E91CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {440F697D-77CA-4EA5-9C13-585B4998A64A}
+	EndGlobalSection
+EndGlobal

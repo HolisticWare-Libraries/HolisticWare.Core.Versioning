@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+      <RootNamespace>Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.3" />
+    <PackageReference Include="Roslynator.Analyzers" Version="3.3.0" />
+    <PackageReference Include="Roslynator.CodeAnalysis.Analyzers" Version="3.3.0" />
+    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="3.3.0" />
+    <PackageReference Include="AsyncFixer" Version="1.5.1" />
+  </ItemGroup>
+</Project>
