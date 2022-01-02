@@ -1,0 +1,180 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tests.CommonShared", "..\..\Tests.CommonShared\Tests.CommonShared.shproj", "{13AB4AD2-D077-48E0-B6F2-791BC25EB413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library-source", "library-source", "{56123580-99E9-45AC-8300-ABF8EE1D021E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{3799F198-4FDB-4BFF-811E-D12EEB39D00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{69B20DD6-58F6-4701-B081-9B09E8B697D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.MSTest", "netstandard10\Benchmarks.MSTest\Benchmarks.MSTest.csproj", "{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.NUnit", "netstandard11\Benchmarks.NUnit\Benchmarks.NUnit.csproj", "{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.XUnit", "netstandard10\Benchmarks.XUnit\Benchmarks.XUnit.csproj", "{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks.Common.Utils.Shared", "..\Benchmarks.Common.Utils.Shared\Benchmarks.Common.Utils.Shared.shproj", "{E4A99F5B-5163-43F4-9E30-4D5F88D08C7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Text.NetStandard10", "..\..\..\externals\Core.Text\source\HolisticWare.Core.Text.NetStandard10\HolisticWare.Core.Text.NetStandard10.csproj", "{E03C830B-AD14-450C-8804-12E32645EDEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Sample.Data", "..\..\..\externals\Core.Math.Samples\data\HolisticWare.Core.Sample.Data\HolisticWare.Core.Sample.Data.csproj", "{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UnitTests.Common.Utils.Shared", "..\..\unit-tests\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.shproj", "{E390F6DA-9F4B-43A4-8ABF-F9434DF2C70D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netstandard10", "netstandard10", "{6C13D081-0562-42D0-BD37-966F9A357919}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netstandard11", "netstandard11", "{E9A7E9D8-69BA-4003-8C48-A6C717BF3715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.XUnit", "netstandard11\Benchmarks.XUnit\Benchmarks.XUnit.csproj", "{57C9EE38-F0D1-425E-8E14-49621768F3D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.MSTest", "netstandard11\Benchmarks.MSTest\Benchmarks.MSTest.csproj", "{9C858A94-BA25-4329-8427-8005A12C5AC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard10", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard10\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard10.csproj", "{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard13", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard13\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard13.csproj", "{B7852FC5-D06E-4A47-B19B-B695E6BF17C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36B9D25A-40E6-47C2-AD91-6EF9EF420571}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\README.md = ..\..\..\README.md
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HolisticWare.Core.Math.Statistics.Descriptive.Sequential", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.shproj", "{97322730-7912-4331-8881-DF029EF7CDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard10", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard10\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard10.csproj", "{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard10", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard10\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard10.csproj", "{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard10", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard10\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard10.csproj", "{F9E03430-A1C5-40DD-914F-4190E1D14E80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard11", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard11\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.NetStandard11.csproj", "{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.shproj", "{F397F3AE-7B7B-49F3-9BA4-8DED2C63813A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.shproj", "{F1A161A2-B393-48EF-960D-89D208BC14E2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.shproj", "{9C40B7D2-F296-4134-9B87-23D5B137B69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard11", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard11\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.NetStandard11.csproj", "{EA0927A5-B664-4578-9A65-AE9F1A88E793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard11", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard11\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.NetStandard11.csproj", "{B6C2916B-C57D-4A3B-884D-BB2E44B10710}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard11", "..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard11\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.NetStandard11.csproj", "{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.NUnit", "netstandard10\Benchmarks.NUnit\Benchmarks.NUnit.csproj", "{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Tests.CommonShared\Tests.CommonShared.projitems*{13ab4ad2-d077-48e0-b6f2-791bc25eb413}*SharedItemsImports = 13
+		..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Sequential.projitems*{97322730-7912-4331-8881-df029ef7cdd1}*SharedItemsImports = 13
+		..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.R.Sequential.projitems*{9c40b7d2-f296-4134-9b87-23d5b137b69d}*SharedItemsImports = 13
+		..\..\unit-tests\UnitTests.Common.Utils.Shared\UnitTests.Common.Utils.Shared.projitems*{e390f6da-9f4b-43a4-8abf-f9434df2c70d}*SharedItemsImports = 13
+		..\Benchmarks.Common.Utils.Shared\Benchmarks.Common.Utils.Shared.projitems*{e4a99f5b-5163-43f4-9e30-4d5f88d08c7d}*SharedItemsImports = 13
+		..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.Python.Sequential.projitems*{f1a161a2-b393-48ef-960d-89d208bc14e2}*SharedItemsImports = 13
+		..\..\..\source\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential\HolisticWare.Core.Math.Statistics.Descriptive.MatlabOctave.Sequential.projitems*{f397f3ae-7b7b-49f3-9ba4-8ded2c63813a}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03C830B-AD14-450C-8804-12E32645EDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03C830B-AD14-450C-8804-12E32645EDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03C830B-AD14-450C-8804-12E32645EDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03C830B-AD14-450C-8804-12E32645EDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C9EE38-F0D1-425E-8E14-49621768F3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C9EE38-F0D1-425E-8E14-49621768F3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C9EE38-F0D1-425E-8E14-49621768F3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C9EE38-F0D1-425E-8E14-49621768F3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C858A94-BA25-4329-8427-8005A12C5AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C858A94-BA25-4329-8427-8005A12C5AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C858A94-BA25-4329-8427-8005A12C5AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C858A94-BA25-4329-8427-8005A12C5AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7852FC5-D06E-4A47-B19B-B695E6BF17C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7852FC5-D06E-4A47-B19B-B695E6BF17C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7852FC5-D06E-4A47-B19B-B695E6BF17C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7852FC5-D06E-4A47-B19B-B695E6BF17C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E03430-A1C5-40DD-914F-4190E1D14E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E03430-A1C5-40DD-914F-4190E1D14E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E03430-A1C5-40DD-914F-4190E1D14E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E03430-A1C5-40DD-914F-4190E1D14E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0927A5-B664-4578-9A65-AE9F1A88E793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0927A5-B664-4578-9A65-AE9F1A88E793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0927A5-B664-4578-9A65-AE9F1A88E793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0927A5-B664-4578-9A65-AE9F1A88E793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C2916B-C57D-4A3B-884D-BB2E44B10710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C2916B-C57D-4A3B-884D-BB2E44B10710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C2916B-C57D-4A3B-884D-BB2E44B10710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C2916B-C57D-4A3B-884D-BB2E44B10710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69B20DD6-58F6-4701-B081-9B09E8B697D3} = {3799F198-4FDB-4BFF-811E-D12EEB39D00C}
+		{2350C347-ED7F-49E9-B3A5-6EBECD5C27C4} = {6C13D081-0562-42D0-BD37-966F9A357919}
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207} = {E9A7E9D8-69BA-4003-8C48-A6C717BF3715}
+		{57A0B06A-7FF0-4FAA-9F73-B9CE93A354DE} = {6C13D081-0562-42D0-BD37-966F9A357919}
+		{E03C830B-AD14-450C-8804-12E32645EDEC} = {3799F198-4FDB-4BFF-811E-D12EEB39D00C}
+		{68C77835-7AC4-4702-B3E7-A6C2BBD7CC06} = {69B20DD6-58F6-4701-B081-9B09E8B697D3}
+		{57C9EE38-F0D1-425E-8E14-49621768F3D6} = {E9A7E9D8-69BA-4003-8C48-A6C717BF3715}
+		{9C858A94-BA25-4329-8427-8005A12C5AC0} = {E9A7E9D8-69BA-4003-8C48-A6C717BF3715}
+		{DEFACBA9-2E24-46BD-B3E0-EFF602FA05DC} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{B7852FC5-D06E-4A47-B19B-B695E6BF17C8} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{36B9D25A-40E6-47C2-AD91-6EF9EF420571} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{97322730-7912-4331-8881-DF029EF7CDD1} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{74AFF2E3-3E45-4DF3-8A94-678D13B4A29B} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{0C54645E-1C9B-4A21-B39C-2370F2F6E9D6} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{F9E03430-A1C5-40DD-914F-4190E1D14E80} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{F9A8A0E3-4FC5-484B-857C-1D6F07DB40C7} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{F397F3AE-7B7B-49F3-9BA4-8DED2C63813A} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{F1A161A2-B393-48EF-960D-89D208BC14E2} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{9C40B7D2-F296-4134-9B87-23D5B137B69D} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{EA0927A5-B664-4578-9A65-AE9F1A88E793} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{B6C2916B-C57D-4A3B-884D-BB2E44B10710} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{DEC4BC62-E64A-4C50-8C92-48BB3487A8BF} = {56123580-99E9-45AC-8300-ABF8EE1D021E}
+		{DD4AC4FC-52B0-49F2-85DE-6E6C441F5207} = {6C13D081-0562-42D0-BD37-966F9A357919}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {440F697D-77CA-4EA5-9C13-585B4998A64A}
+	EndGlobalSection
+EndGlobal
