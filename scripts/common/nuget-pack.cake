@@ -22,6 +22,7 @@ Task("nuget-pack")
 							.SetConfiguration("Release")
 							.WithTarget("Pack")
 							//.WithProperty("PackageVersion", NUGET_VERSION)
+							// PATH!!!!!!!!
 							.WithProperty("PackageOutputPath", "../../output")
 				);
 
@@ -31,7 +32,8 @@ Task("nuget-pack")
 					new DotNetCorePackSettings
 					{
 						Configuration = "Release",
-						OutputDirectory = "../../output/"
+						// PATH!!!!!!!!
+						OutputDirectory = "./output/"
 					}
 				);
 			}

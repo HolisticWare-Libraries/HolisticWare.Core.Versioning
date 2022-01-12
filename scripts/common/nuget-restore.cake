@@ -3,6 +3,7 @@
 Task("nuget-restore")
     .IsDependentOn("nuget-restore-externals")
     .IsDependentOn("nuget-restore-libs")
+    .IsDependentOn("nuget-restore-tests")
     .Does
     (
         () =>
@@ -22,7 +23,56 @@ Task("nuget-restore-externals")
             foreach(FilePath file in files)
             {
                 Information("File: {0}", file);
-                NuGetRestore(file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
+            }
+
+            files = GetFiles("./externals-submodules/**/source/*.sln");
+            foreach(FilePath file in files)
+            {
+                Information("File: {0}", file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
+            }
+
+            files = GetFiles("./externals/**/source/*.csproj");
+            foreach(FilePath file in files)
+            {
+                Information("File: {0}", file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
+            }
+
+            files = GetFiles("./externals-submodules/**/source/*.csproj");
+            foreach(FilePath file in files)
+            {
+                Information("File: {0}", file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
             }
 
             return;
@@ -39,13 +89,28 @@ Task("nuget-restore-libs")
             foreach(FilePath file in files)
             {
                 Information("File: {0}", file);
-                NuGetRestore(file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
             }
+
             files = GetFiles("./source/**/*.csproj");
             foreach(FilePath file in files)
             {
                 Information("File: {0}", file);
-                NuGetRestore(file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
             }
 
             return;
@@ -62,7 +127,28 @@ Task("nuget-restore-samples")
             foreach(FilePath file in files)
             {
                 Information("File: {0}", file);
-                NuGetRestore(file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
+            }
+
+            files = GetFiles("./samples/**/*.csproj");
+            foreach(FilePath file in files)
+            {
+                Information("File: {0}", file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
             }
 
             return;
@@ -80,7 +166,28 @@ Task("nuget-restore-tests")
             foreach(FilePath file in files)
             {
                 Information("File: {0}", file);
-                NuGetRestore(file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
+            }
+
+            files = GetFiles("./tests/**/*.csproj");
+            foreach(FilePath file in files)
+            {
+                Information("File: {0}", file);
+        		NuGetRestore
+                    (
+                        file, 
+                        new NuGetRestoreSettings 
+                        { 
+                            PackagesDirectory = $"{file.GetDirectory()}/packages"
+                        } 
+                    );
             }
 
             return;
