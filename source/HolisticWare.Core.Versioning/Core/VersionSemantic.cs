@@ -17,11 +17,21 @@ namespace Core
     {
         static VersionSemantic()
         {
-            re01 = new Regex(@"^(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(?:-(?<prerelease>(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+(?<buildmetadata>[0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$");
-            re02 = new Regex(@"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$");
+            re01 = new Regex
+                        (
+                            @"^(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(?:-(?<prerelease>(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+(?<buildmetadata>[0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$")                            
+                        ;
+            re02 = new Regex
+                        (
+                            @"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$"
+                        );
 
             // https://dotnetfiddle.net/tnKTPd
-            re03 = new Regex("^(?:\\d+\\.){2}\\d+(?:-(?:0|[1-9]\\d*|\\d*[a-z-][a-z\\d-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-z-][a-z\\d-]*))*)?(?:\\+[a-z\\d-]+(?:\\.[a-z\\d-]+)*)?$", RegexOptions.IgnoreCase);
+            re03 = new Regex
+                        (
+                            "^(?:\\d+\\.){2}\\d+(?:-(?:0|[1-9]\\d*|\\d*[a-z-][a-z\\d-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-z-][a-z\\d-]*))*)?(?:\\+[a-z\\d-]+(?:\\.[a-z\\d-]+)*)?$", 
+                            RegexOptions.IgnoreCase
+                        );
 
             ParsingMethod = ParseDummyNaive;
 
