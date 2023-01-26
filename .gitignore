@@ -138,7 +138,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings
+# TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -294,7 +294,7 @@ App_Data/*.ldf
 #
 #	https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 #	http://stackoverflow.com/questions/2143956/gitignore-for-visual-studio-projects-and-solutions
-#
+#	
 
 
 #----------------------------------------------
@@ -399,7 +399,7 @@ local.properties
 # PDT-specific
 .buildpath
 
-# sbteclipse plugin
+# sbteclipse plugin 
 .target
 
 # TeXlipse plugin
@@ -430,14 +430,14 @@ local.properties
 #------------------------------------------
 # Xamarin.iOS build files
 **DerivedData**
-**build**
+#**build**
 lib/**
 #------------------------------------------
 
 #------------------------------------------
 # iOS build files
 **DerivedData**
-**build**
+#**build**
 lib/**
 #------------------------------------------
 
@@ -479,16 +479,8 @@ output/**
 **/__pycache__/**
 #------------------------------------------
 
-#------------------------------------------
-# Visual Studcio Code project settings files
-**/.vscode/
-#------------------------------------------
-
-#------------------------------------------
-# ScriptCS nuget packages dependencies folder
-**/scriptcs_packages/
-#------------------------------------------
-
 #==============================================================================
 df-post.txt
 df-pre.txt
+
+**/*-packages/**
