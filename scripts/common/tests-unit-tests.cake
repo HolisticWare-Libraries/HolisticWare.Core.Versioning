@@ -181,7 +181,7 @@ Task("unit-tests-mstest")
             (
                 "./tests/unit-tests/project-references/UnitTests.MSTest/UnitTests.MSTest.csproj",
                 //"xunit",  "--no-build -noshadow"
-                new DotNetCoreTestSettings()
+                new DotNetTestSettings()
                 {
                     ResultsDirectory = reports,
                 }
