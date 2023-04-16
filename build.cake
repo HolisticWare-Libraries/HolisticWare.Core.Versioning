@@ -5,7 +5,7 @@ Installing
     dotnet cake global tool
 
         dotnet tool uninstall 	-g Cake.Tool
-        dotnet tool install 	-g Cake.Tool	
+        dotnet tool install 	-g Cake.Tool
 
     script bootstrappers (deprecated)
 
@@ -62,8 +62,6 @@ Running Cake to Build targets
 
 // https://www.nuget.org/packages/Cake.CoreCLR
 //  Cake.CoreCLR add to ./tools/ folder for debugging
-#tool   nuget:?package=Cake.CoreCLR
-
 #addin nuget:?package=Cake.FileHelpers
 
 //---------------------------------------------------------------------------------------
@@ -102,9 +100,9 @@ FilePathCollection SamplesSolutions                         = GetFiles(samples_s
 FilePathCollection SamplesScriptsInteractiveCsharpCake      = GetFiles(samples_solutions);
 FilePathCollection SamplesProjects                          = GetFiles(samples_projects);
 
-string[] configurations = new string[] 
-{ 
-    //"Debug", 
+string[] configurations = new string[]
+{
+    //"Debug",
     "Release",
 };
 
@@ -157,7 +155,7 @@ Task("Default")
     (
         () =>
         {
-            // RunTarget("unit-tests");
+            //RunTarget("unit-tests");
             RunTarget("nuget-pack");
             RunTarget("samples");
         }
@@ -174,7 +172,7 @@ if( ! IsRunningOnWindows())
                                     "tree",
                                     new ProcessSettings
                                     {
-                                        Arguments = @"./output"
+                                        Arguments = @"-h ./output"
                                     }
                                 );
     }

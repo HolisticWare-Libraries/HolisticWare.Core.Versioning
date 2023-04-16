@@ -3,6 +3,7 @@
 Task("nuget-pack")
     .IsDependentOn ("nuget-pack-dotnet")
     .IsDependentOn ("nuget-pack-msbuild")
+    .IsDependentOn ("nuget-pack-verify")
 	;
 
 Task("nuget-pack-dotnet")
@@ -61,6 +62,25 @@ Task("nuget-pack-msbuild")
 								// PATH!!!!!!!!
 								.WithProperty("PackageOutputPath", "../../output/msbuild-pack/")
 				);
+			}
+
+            return;
+        }
+    );
+
+Task("nuget-pack-verify")
+    .Does
+    (
+        () =>
+        {
+            FilePathCollection files = GetFiles("./output/**/*.nupkg");
+
+            foreach(FilePath file in files)
+			{
+				Information($"NuGet package file: 		{file}");
+                string dir = $"{file.ToString()}.unpacked";
+                EnsureDirectoryDoesNotExist(dir);
+                Unzip($"{file.ToString()}", dir);
 			}
 
             return;
