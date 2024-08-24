@@ -12,9 +12,13 @@ namespace Core
     /// <seealso href="https://semver.org/spec/v1.0.0.html"/>
     /// <seealso href="https://semver.org/spec/v2.0.0.html"/>
     /// <summary>
-    public partial class VersionSemantic
+    public partial class
+                                        VersionSemantic
     {
-        static VersionSemantic()
+        static
+                                        VersionSemantic
+                                        (
+                                        )
         {
             ParsingMethod = ParseDummyNaive;
 
@@ -30,14 +34,14 @@ namespace Core
         }
 
         public
-                                    VersionSemantic
-                                            (
-                                                int major,
-                                                int minor,
-                                                int patch,
-                                                string prerelease = null,
-                                                string build = null
-                                            )
+                                        VersionSemantic
+                                        (
+                                            int major,
+                                            int minor,
+                                            int patch,
+                                            string prerelease = null,
+                                            string build = null
+                                        )
         {
             this.Major = major;
             this.Minor = minor;
