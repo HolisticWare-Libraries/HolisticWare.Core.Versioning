@@ -1,14 +1,11 @@
 namespace Core;
 
 /// <summary>
-/// /// VersionSemantic class (abstraction/implementation
 ///
 /// </summary>
-///
 /// <seealso href="https://semver.org/"/>
 /// <seealso href="https://semver.org/spec/v1.0.0.html"/>
 /// <seealso href="https://semver.org/spec/v2.0.0.html"/>
-/// <summary>
 /*
     https://semver.org/
 
@@ -32,7 +29,7 @@ namespace Core;
 
     2.8
     2.71828
-    
+
         https://mvnrepository.com/artifact/com.squareup.picasso/picasso
 */
 public partial class
